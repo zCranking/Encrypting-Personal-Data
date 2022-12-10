@@ -53,7 +53,3 @@ def viewData():
     decrypted = decrypt("ZED", bytes)
     finalData = decode(decrypted)
     insert(END, finalData)
-
-    
-
-    
